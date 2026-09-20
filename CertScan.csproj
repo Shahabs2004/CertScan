@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!-- net48 for Windows Server / bank workstations, net8.0 for modern machines. Remove one if not needed. -->
+    <TargetFrameworks>net48;net8.0</TargetFrameworks>
+    <AssemblyName>CertScan</AssemblyName>
+    <RootNamespace>CertScan</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Deterministic>true</Deterministic>
+    <!-- X509Certificate2 byte[] constructors are flagged obsolete in .NET 9+ SDKs; harmless here. -->
+    <NoWarn>$(NoWarn);SYSLIB0057;SYSLIB0027</NoWarn>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+## .NET build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+publish/
+
+## IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+## Test certificates (never commit real keys)
+*.pfx
+*.p12
+*.key
+*.pem
+*.cer
+!docs/**
+
+## OS
+Thumbs.db
+.DS_Store
