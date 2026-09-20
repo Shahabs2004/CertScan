@@ -122,3 +122,4 @@ View.cs           banner, tables, risk cards, details view
 Issues and pull requests are welcome. New checks belong in `Analyzer.cs`: add a `Finding` with a severity, a `Field` (used to colour the details view) and a short explanation.
 
 ## License
+Apache-2.0, see LICENSE.txt
